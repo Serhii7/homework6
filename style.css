@@ -144,6 +144,26 @@ footer div{
 }
 
 
+.fixed_menu{
+	display: none;
+	width: 312px;
+	position: absolute;
+	right: 0px;
+	top: 50px;
+}
+.fixed_menu_nav{
+	background: url('images/nav_menu.png');
+	width: 75px;
+	height: 75px;
+	-webkit-background-size: cover;
+	background-size: cover;
+	position: fixed;
+	top:15px;
+	right: 15px;
+	z-index: 999;
+
+}
+
 
 
 /*------------------Responsible-----------------------*/
